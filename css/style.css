@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	/*background-color: #dfe4ea;*/
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+h5{
+	font-size: 17px;
+	padding: 18px 0;
+	color: #576574;
+}
+h2{
+	font-size: 30px;
+	padding: 18px 0;
+	color: #576574;
+	font-family: normal;
+}
+p{
+	line-height: 1.5em;
+	font-size: 18px;
+	padding-top: 15px; 
+	padding-bottom: 30px;
+	color: #535c68;
+}
+.banner{
+	width: 90%;
+	margin: 0 auto;
+}
+.banner img{
+	width: 100%;
+	height: 400px;
+}
+.logo{
+	width: 20%;
+	float: left;
+	margin: 20px 0;
+}
+.menu{
+	width: 80%;
+	float: left;
+	margin: 20px 0;
+}
+.menu ul{
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 17px; 
+	padding: 5px 30px;
+	color: #000;
+	display: block;
+	font-weight: bold;
+	transition: background-color .5s;
+}
+.menu ul li a:hover{
+	color: #fff;
+	background-color: #006266;
+}
+
+/*=========HEADER END=========*/
+
+#photo{
+	width: 80%;
+	padding: 80px 65px;
+	margin: 0 auto;
+}
+
+
+/*=========PHOTO END=========*/
+
+#lifstyle{
+	width: 80%;
+	padding: 80px 65px;
+	margin: 0 auto;
+}
+#lifstyle img{
+	width: 100%;
+	height: auto;
+}
+#lifstyle .blog-1{
+	float: left;
+	width: 45%;
+	padding-right: 48px;
+}
+#lifstyle .blog-2{
+	float: left;
+	width: 45%;
+	padding-left: 48px;
+}
+
+
+/*=========LIFESTYLE END=========*/
+
+footer{
+	width: 80%;
+	/*padding: 80px 0;*/
+	margin: 0 auto;
+}
+footer .condition{
+	width: 60%;
+	float: left;
+}
+footer h4{
+	color: #535c68;
+	width: 60%;
+	float: left;
+}
+footer .social{
+	width: 40%;
+	float: right;
+	text-align: right;
+	font-size: 18px;
+	padding-top: 15px; 
+	padding-bottom: 30px;
+}
+footer .social ul{
+	display: inline-block;
+}
+footer .social ul li{
+	list-style: none;
+	display: inline-block;
+}
+footer .social ul li a{
+	color: #535c68;
+	padding: 5px;
+	transition: background-color .5s;
+}
+footer .social ul li a:hover{
+	color: #fff;
+	background-color: #006266;
+}
+
